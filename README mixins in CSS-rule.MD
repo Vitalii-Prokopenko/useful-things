@@ -1,4 +1,4 @@
-Mixins for different screens inside CSS-rule
+**Mixins for different screens inside CSS-rule**
 
 // Mixin for styles for mobile phone
 
@@ -48,13 +48,14 @@ Mixins for different screens inside CSS-rule
   }
 }
 
-Variables (should be declared before using mixins):
+**Variables** (should be declared before using mixins):
 $minMobile
 $minTablet
 $minDesktop
 
-Sample:
-SASS:
+_Sample:_
+
+_SASS:_
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
@@ -68,7 +69,7 @@ SASS:
   @include only-desktop(padding-bottom, 23px);
 }
 
-CSS:
+_CSS:_
 .page-header {
   padding-top: 10px;
   padding-bottom: 10px;
