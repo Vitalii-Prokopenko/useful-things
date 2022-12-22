@@ -132,4 +132,55 @@ h6 {
   .mixins-content .box {
     width: 600px;
   }
+}
+/* Mixins for fonts */
+.mixins-fonts .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 800px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: blue;
+  text-align: center;
+  background-color: burlywood;
+}
+
+.text-1 {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2857142857;
+  color: tomato;
+}
+
+.text-2 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: brown;
+}
+
+.text-3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2222222222;
+  color: purple;
+}
+
+.text-4 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.2;
+  color: red;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,32 @@
+/* Mixins for fonts */
+
+.mixins-fonts .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 800px;
+
+  @include myFont(24px, 700, 30px, blue);
+
+
+  text-align: center;
+  background-color: burlywood; 
+}
+
+.text-1 {
+    @include myFont(28px, 500, 36px, tomato);
+}
+
+.text-2 {
+    @include myFont(32px, 600, 40px, brown);
+}
+
+.text-3 {
+    @include myFont(36px, 700, 44px, purple);
+}
+
+.text-4 {
+    @include myFont(40px, 800, 48px, red);
+}

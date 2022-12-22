@@ -1,0 +1,16 @@
+// Mixins for fonts
+
+@mixin myFont($size: false, $weight: false, $lh: false, $my-color: false) {
+  @if $size {
+    font-size: $size;
+  }
+  @if $weight {
+    font-weight: $weight;
+  }
+  @if $lh {
+    line-height: calc($lh / $size);
+  }
+  @if $my-color {
+    color: $my-color;
+  }
+}
