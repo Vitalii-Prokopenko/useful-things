@@ -3,7 +3,9 @@
 body {
   font-family: $mainFont;
   color: $mainTextColor;
-  background-color: $mainBgColor;
+  background-color: $mainBgColor;  
+}
 
-  
+section {
+  margin-bottom: 30px;
 }

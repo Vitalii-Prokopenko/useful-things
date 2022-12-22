@@ -1,0 +1,28 @@
+/* Mixins with content */ 
+
+.mixins-content .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 200px;
+  width: 200px;
+
+  font-size: 34px;
+  text-align: center;
+
+  background-color: green;
+  color: burlywood;
+}
+
+@include only-tablet-content {
+  .mixins-content .box {
+    width: 400px;
+  }
+}
+
+@include only-desktop-content {
+  .mixins-content .box {
+    width: 600px;
+  }
+}

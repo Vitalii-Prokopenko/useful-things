@@ -1,0 +1,21 @@
+/* Mixins with property */ 
+
+.mixins-property .box {
+
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+
+  height: 200px;
+  width: 200px;
+
+  font-size: 34px;
+  text-align: center;
+
+  background-color: green;
+  color: burlywood;
+
+  @include only-tablet-property(width, 400px);
+
+  @include only-desktop-property(width, 600px);
+}
